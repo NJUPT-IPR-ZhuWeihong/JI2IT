@@ -1,7 +1,7 @@
 # Joint Image-to-Image Translation for Traffic Monitoring Driver Face Image Enhancement (JI2IT)
 ## Introduction
 The real traffic monitoring driver face (TMDF) images are with complex multiple degradations, which decline
-face recognition accuracy in real intelligent transportation systems (ITS). We are the first to propose joint image-to-image
+face recognition accuracy in real intelligent transportation systems (ITS). We are the first to propose joint image-to-image
 (I2I) translation to enhance TMDF images of ITS. the experiments on TMDF (i.e., the brevity name of the face database collected from real ITS)
 and Chinese famous face (CFF) databases, as well as CelebA and MegaFace databases, indicate that the proposed method can efficiently 
 enhance TMDF images whose degradation variations are learned by FDSP-CG.
@@ -20,15 +20,15 @@ You could improve it according to your own needs.
 ```
 
 ### Configuration
-Modify the related parameters (paths, loss weights, training steps, and etc.) in the config yaml files.Please refer to [GFPGAN](https://github.com/TencentARC/GFPGAN?tab=readme-ov-file) for relevant settings.
+Modify the related parameters (paths, loss weights, training steps, and etc.) in the config yaml files.
 ```
 ./options/train_restormgan.yml
 ```
 
 ## Testing
 ### Pre-trained models
-Please download our pre-trained models via the following links [Baiduyun (extracted code: 1a2b)](https://pan.baidu.com/s/1j7TC79W4S5m4GC5IyiciKA?pwd=1a2b) 
-[Google Drive](https://drive.google.com/drive/folders/1leBqBpAZ2QQ432oMihETGFqWwzwloZfl). 
+Please download our pre-trained models via the following links [Baiduyun (extracted code: 1a2b)]() 
+[Google Drive](). 
 Place the downloaded pre-trained model in the following path。
 ```
 ./experiments/pretrained_models
@@ -41,14 +41,15 @@ Place the downloaded pre-trained model in the following path。
 ## Citation
 If you find this work useful for your research, please cite our paper
 ```
-@article{hu2025restormgan,
-  title={RestormGAN: Restormer with generative facial prior towards real-world blind face restoration},
-  author={Hu, Changhui and Zhu, Weihong and Xu, Lintao and Wu, Fei and Cai, Ziyun and Ye, Mengjun and Lu, Xiaobo},
-  journal={Computers and Electrical Engineering},
-  volume={123},
-  pages={110095},
-  year={2025},
-  publisher={Elsevier}
+@article{hu2023joint,
+  title={Joint image-to-image translation for traffic monitoring driver face image enhancement},
+  author={Hu, Chang-Hui and Liu, Yu and Xu, Lin-Tao and Jing, Xiao-Yuan and Lu, Xiao-Bo and Yang, Wan-Kou and Liu, Pan},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={24},
+  number={8},
+  pages={7961--7973},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
